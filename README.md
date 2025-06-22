@@ -1,5 +1,3 @@
-Code-for-KAC-master
-
 There are some tips about this code in the following,
 
 Open run.py to run KAC. You can replace the dataset in the experiment as you want, and we use IMDB as an example.
