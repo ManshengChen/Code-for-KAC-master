@@ -8,11 +8,11 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
 parser = argparse.ArgumentParser(description='KAC')
-parser.add_argument('--name', type=str, default='IMDB', help='dataset.')
-parser.add_argument('--n_cluster', type=int, default=3, help='number of cluster.')
+# parser.add_argument('--name', type=str, default='IMDB', help='dataset.')
+# parser.add_argument('--n_cluster', type=int, default=3, help='number of cluster.')
 
-# parser.add_argument('--name', type=str, default='DBLP', help='dataset.')
-# parser.add_argument('--n_cluster', type=int, default=4, help='number of cluster.')
+parser.add_argument('--name', type=str, default='DBLP', help='dataset.')
+parser.add_argument('--n_cluster', type=int, default=4, help='number of cluster.')
 
 # parser.add_argument('--name', type=str, default='Netease', help='dataset.')
 # parser.add_argument('--n_cluster', type=int, default=19, help='number of cluster.')
@@ -21,9 +21,9 @@ parser.add_argument('--batch-size', type=int, default=2048, help='Batch size. De
 parser.add_argument('--samples', type=int, default=100, help='Number of neighbors sampled. Default is 100.')
 # Note that batch_size and samples are fixed in Pre_batch.py, if want to change, run Pre_batch.py again.
 
-parser.add_argument('--lambda1_value', type=float, default=0.5, help='trade-off factor.') 
-parser.add_argument('--lambda2_value', type=float, default=0.5, help='trade-off factor.')
-parser.add_argument('--lambda3_value', type=float, default=0.2, help='trade-off factor.')
+parser.add_argument('--lambda1_value', type=float, default=0.4, help='trade-off factor.') 
+parser.add_argument('--lambda2_value', type=float, default=0.6, help='trade-off factor.')
+parser.add_argument('--lambda3_value', type=float, default=1.0, help='trade-off factor.')
 
 
 parser.add_argument('--dropout_rate', type=float, default=0.5, help='dropout_rate.')
