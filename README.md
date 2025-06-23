@@ -2,7 +2,7 @@ Code-for-KAC-master
 
 There are some tips about this code in the following,
 
-Open run.py to run KAC. You can replace the dataset in the experiment as you want, and we use IMDB as an example. Note that the related data can be downloaded from the Releases.
+Open run.py to run KAC. You can replace the dataset in the experiment as you want, and we use IMDB as an example. Notice that the data are packed in the datazip from releases.
 
 References: "Knowledge-Aware Clustering", under review.
 
