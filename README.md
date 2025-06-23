@@ -22,7 +22,7 @@ pip install pandas matplotlib scikit-learn munkres
 
 Code running tips:
 
-Open run.py to run KAC. You can replace the dataset in the experiment as you want, and we use IMDB as an example. Notice that the data are packed in the datazip from releases.
+Open run.py to run KAC. You can replace the dataset in the experiment as you want, and we use IMDB as an example. Notice that the data are packed in the datazip from releases, and the used three parameters are tuned in the range of {0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0}.
 
 References: "Knowledge-Aware Clustering", under review.
 
