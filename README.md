@@ -3,7 +3,7 @@
 Hardware requirement：RTX3090 (CUDA VERSION: 11.3)
 
 
-nvironmental configuration：
+Environmental configuration：
 
 1. Creat python 3.7.16
 conda create -n dgl python=3.7.16
