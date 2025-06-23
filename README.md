@@ -1,23 +1,23 @@
-Code-for-KAC-master
+# Code-for-KAC-master
 
 Hardware requirement：RTX3090 (CUDA VERSION: 11.3)
 
 
-Environmental configuration：
+# Environmental configuration：
 
-# Creat python 3.7.16
+1. Creat python 3.7.16
 conda create -n dgl python=3.7.16
 
-# Activate
+2. Activate
 conda activate dgl
 
-# Install pytorch 1.12.1 cuda 11.3
+3. Install pytorch 1.12.1 cuda 11.3
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 
-# Install dgl 1.1.1 cu113
+4. Install dgl 1.1.1 cu113
 pip install dgl==1.1.1+cu113 -f https://data.dgl.ai/wheels/cu113/repo.html
 
-# Others
+5. Others
 pip install pandas matplotlib scikit-learn munkres
 
 # Code running tips
