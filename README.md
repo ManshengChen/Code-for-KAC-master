@@ -3,7 +3,7 @@
 Hardware requirement：RTX3090 (CUDA VERSION: 11.3)
 
 
-# Environmental configuration：
+nvironmental configuration：
 
 1. Creat python 3.7.16
 conda create -n dgl python=3.7.16
@@ -20,7 +20,7 @@ pip install dgl==1.1.1+cu113 -f https://data.dgl.ai/wheels/cu113/repo.html
 5. Others
 pip install pandas matplotlib scikit-learn munkres
 
-# Code running tips
+Code running tips:
 
 Open run.py to run KAC. You can replace the dataset in the experiment as you want, and we use IMDB as an example. Notice that the data are packed in the datazip from releases.
 
