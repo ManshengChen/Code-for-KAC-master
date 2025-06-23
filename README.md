@@ -1,6 +1,26 @@
 Code-for-KAC-master
 
-There are some tips about this code in the following,
+Hardware requirement：RTX3090 (CUDA VERSION: 11.3)
+
+
+Environmental configuration：
+
+# Creat python 3.7.16
+conda create -n dgl python=3.7.16
+
+# Activate
+conda activate dgl
+
+# Install pytorch 1.12.1 cuda 11.3
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+
+# Install dgl 1.1.1 cu113
+pip install dgl==1.1.1+cu113 -f https://data.dgl.ai/wheels/cu113/repo.html
+
+# Others
+pip install pandas matplotlib scikit-learn munkres
+
+# Code running tips
 
 Open run.py to run KAC. You can replace the dataset in the experiment as you want, and we use IMDB as an example. Notice that the data are packed in the datazip from releases.
 
